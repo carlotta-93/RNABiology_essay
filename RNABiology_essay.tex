@@ -1,5 +1,6 @@
 \documentclass[a4paper, twocolumn]{article}
-
+\usepackage[numbers,sort&compress]{natbib}
+\renewcommand{\bibnumfmt}[1]{#1.}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
@@ -16,14 +17,16 @@
 \maketitle
 
 \begin{abstract}
-Enter a short summary here. What topic do you want to investigate and why? What experiment did you perform? What were your main results and conclusion?
+This is gonna be the last thing i write down
+
 \end{abstract}
 
 \section{Introduction}
-
-
+Most of the known non-coding RNAs (ncRNAs) correspond to intergenic sequences or transcripts with unknown functions. In mammals, two of the increasingly known long ncRNAs are \textit{Xist} and \textit{Tsix} which are involved in the regulation of adjacent genes. 
+In plants, small-interferingRNAs (siRNAs) guide the process of chromatin modifications. These ncRNAs are generated from dsRNAs precursors and processed by dicer (DCL) enzymes into 21-24 nucleotides long siRNAs before associating with Argonaute proteins (AGO). 
 
 \section{RNA Polymerase IV}
+how it produces siRNAs and what do they bind to : AGO specific and dicer specific \cite{Zhang130}
 
 \subsection{Subunits}
 
@@ -39,15 +42,13 @@ Enter a short summary here. What topic do you want to investigate and why? What 
 
 \subsection{The function}
 
+\section{The paradox of epigenetic control}
+Need for transcription in order to transcriptionally silence the same region. \cite{paradox}
+
 \section{Future outlook}
 
 
-\begin{thebibliography}{9}
-\bibitem{nano3}
-  K. Grove-Rasmussen og Jesper Nygård,
-  \emph{Kvantefænomener i Nanosystemer}.
-  Niels Bohr Institute \& Nano-Science Center, Københavns Universitet
-
-\end{thebibliography}
+\bibliography{essay_bibliography}
+\bibliographystyle{currbiol}
 
 \end{document}
